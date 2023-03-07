@@ -1,0 +1,165 @@
+INFO Reading configuration /config/esphome/esp32-c3-riser-01.yaml...
+INFO Generating C++ source...
+INFO Compiling app...
+Processing esp32-c3-riser-01 (board: esp32-c3-devkitm-1; framework: arduino; platform: platformio/espressif32 @ 5.2.0)
+--------------------------------------------------------------------------------
+Removing unused dependencies...
+Library Manager: Removing noise-c @ 0.1.4
+INFO Removing noise-c @ 0.1.4
+Library Manager: Removing dependencies...
+INFO Removing dependencies...
+Library Manager: Removing libsodium @ 1.10018.1
+INFO Removing libsodium @ 1.10018.1
+Library Manager: libsodium@1.10018.1 has been removed!
+INFO libsodium@1.10018.1 has been removed!
+Library Manager: noise-c@0.1.4 has been removed!
+INFO noise-c@0.1.4 has been removed!
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+ - framework-arduinoespressif32 @ 2.0.6+sha.b63f947 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+Dependency Graph
+|-- AsyncTCP-esphome @ 1.2.2
+|-- WiFi @ 2.0.0
+|-- FS @ 2.0.0
+|-- Update @ 2.0.0
+|-- ESPAsyncWebServer-esphome @ 2.1.0
+|   |-- AsyncTCP-esphome @ 1.2.2
+|-- DNSServer @ 2.0.0
+|-- ESPmDNS @ 2.0.0
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/api_connection.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/api_frame_helper.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/api_pb2.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/api_pb2_service.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/api_server.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/list_entities.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/proto.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/subscribe_state.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/api/user_services.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/captive_portal/captive_portal.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/esp32/core.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/esp32/gpio.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/esp32/preferences.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/logger/logger.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/md5/md5.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/mdns/mdns_component.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/mdns/mdns_esp32.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/mdns/mdns_esp8266.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/mdns/mdns_rp2040.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/network/util.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/ota/ota_backend_arduino_esp32.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/ota/ota_backend_arduino_esp8266.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/ota/ota_backend_arduino_rp2040.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/ota/ota_backend_esp_idf.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/ota/ota_component.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/socket/bsd_sockets_impl.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/socket/lwip_raw_tcp_impl.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/socket/socket.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/web_server_base/web_server_base.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/wifi/wifi_component.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/wifi/wifi_component_esp32_arduino.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/wifi/wifi_component_esp8266.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/wifi/wifi_component_esp_idf.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/components/wifi/wifi_component_pico_w.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/application.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/color.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/component.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/component_iterator.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/controller.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/entity_base.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/helpers.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/log.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/scheduler.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/esphome/core/util.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/src/main.cpp.o
+Building /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/bootloader.bin
+Creating esp32c3 image...
+Successfully created esp32c3 image.
+Generating partitions /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/partitions.bin
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib793/AsyncTCP-esphome/AsyncTCP.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFi.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFiAP.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFiClient.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFiGeneric.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFiMulti.cpp.o
+Archiving /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib793/libAsyncTCP-esphome.a
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFiSTA.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFiScan.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFiServer.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/WiFi/WiFiUdp.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libc50/FS/FS.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libc50/FS/vfs_api.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libcc1/Update/HttpsOTAUpdate.cpp.o
+Archiving /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libf41/libWiFi.a
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libcc1/Update/Updater.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib03c/ESPAsyncWebServer-esphome/AsyncEventSource.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib03c/ESPAsyncWebServer-esphome/AsyncWebSocket.cpp.o
+Archiving /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libc50/libFS.a
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib03c/ESPAsyncWebServer-esphome/WebAuthentication.cpp.o
+Archiving /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libcc1/libUpdate.a
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib03c/ESPAsyncWebServer-esphome/WebHandlers.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib03c/ESPAsyncWebServer-esphome/WebRequest.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib03c/ESPAsyncWebServer-esphome/WebResponses.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib03c/ESPAsyncWebServer-esphome/WebServer.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib7d5/DNSServer/DNSServer.cpp.o
+Archiving /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib7d5/libDNSServer.a
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libb13/ESPmDNS/ESPmDNS.cpp.o
+Archiving /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/lib03c/libESPAsyncWebServer-esphome.a
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/Esp.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/FirmwareMSC.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/FunctionalInterrupt.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/HWCDC.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/HardwareSerial.cpp.o
+Archiving /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libb13/libESPmDNS.a
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/IPAddress.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/IPv6Address.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/MD5Builder.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/Print.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/Stream.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/StreamString.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/Tone.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/USB.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/USBCDC.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/USBMSC.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/WMath.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/WString.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/base64.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/cbuf.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-adc.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-bt.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-cpu.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-dac.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-gpio.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-i2c-slave.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-i2c.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-ledc.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-matrix.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-misc.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-psram.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-rgb-led.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-rmt.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-sigmadelta.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-spi.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-time.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-timer.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-tinyusb.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-touch.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/esp32-hal-uart.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/firmware_msc_fat.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/libb64/cdecode.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/libb64/cencode.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/main.cpp.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/stdlib_noniso.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/wiring_pulse.c.o
+Compiling /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/FrameworkArduino/wiring_shift.c.o
+Archiving /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/libFrameworkArduino.a
+Linking /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/firmware.elf
+RAM:   [=         ]  12.9% (used 42148 bytes from 327680 bytes)
+Flash: [=====     ]  46.0% (used 844858 bytes from 1835008 bytes)
+Building /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/firmware.bin
+Creating esp32c3 image...
+Successfully created esp32c3 image.
+esp32_create_combined_bin(["/data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/firmware.bin"], ["/data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/firmware.elf"])
+Wrote 0xe1bf0 bytes to file /data/esp32-c3-riser-01/.pioenvs/esp32-c3-riser-01/firmware-factory.bin, ready to flash to offset 0x0
+======================== [SUCCESS] Took 126.33 seconds ========================
+INFO Successfully compiled program.

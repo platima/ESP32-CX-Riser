@@ -17,11 +17,8 @@ logger:
 
 # Enable Home Assistant API
 api:
-  encryption:
-    key: ""
 
 ota:
-  password: ""
 
 wifi:
   ssid: !secret wifi_ssid
@@ -30,7 +27,5 @@ wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Esp32-C3-Riser-01"
-    password: ""
 
 captive_portal:
-    

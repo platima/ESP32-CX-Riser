@@ -1,0 +1,1 @@
+Dump this into a new directory within your EasyEDA (not Pro version) projects folder, launch the application, then you'll find it under "All Projects"
