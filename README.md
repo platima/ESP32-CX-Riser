@@ -8,4 +8,7 @@ Youtube Videos About This Project:
  - Part 2: https://www.youtube.com/watch?v=0jiOypQvOzU
  - Part 3: https://www.youtube.com/watch?v=cpVlW9d6p8c
 
-Updated 2023-08-07: I have more to commit, hold tight!
+Updated 2023-08-07: I have more to commit, hold tight! 
+
+# Shop
+Buy spare boards, modules, and similar from me: https://shop.plati.ma/
