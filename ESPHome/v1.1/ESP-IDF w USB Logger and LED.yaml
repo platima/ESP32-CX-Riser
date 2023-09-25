@@ -1,0 +1,42 @@
+substitutions:
+  device_name: "ESP32-Riser_Test-IDF-1"
+  friendly_name: "ESP32-Riser Test IDF 1"
+
+esphome:
+  name: "${device_name}"
+  platformio_options:
+    board_build.flash_mode: dio ## NOTE does not boot in QIO mode
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: esp-idf
+
+light:
+  - platform: status_led
+    name: "${friendly_name} Status LED"
+    id: blue_led
+    disabled_by_default: true
+    pin:
+      inverted: true
+      number: GPIO2
+
+api: ## Add your encryption key
+
+ota: ## Add your encryption key
+
+logger:
+  hardware_uart: USB_SERIAL_JTAG 
+
+web_server:
+  port: 80
+
+esp32_improv:
+  authorizer: none
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+captive_portal:
+    
