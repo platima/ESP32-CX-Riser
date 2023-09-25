@@ -12,7 +12,7 @@ Long story short, tiny and designed to be mounted vertically in a PCB much like 
  - [Part 4 - V1.1 Improvements ft USB](https://youtu.be/GJxwWLoLuj8)
 
 ## Updates
-* **2023-09-25**: Added Part 4 video link, which is going wild!
+* **2023-09-25**: Added v1.1 EDA files and YAML, plus part 4 video link above (which is going wild!)
 * **2023-08-09**: Added shop link, opened [Discussions](https://github.com/platima/ESP32-CX-Riser/discussions)
 * **2023-08-07**: I have more to commit, hold tight! 
 
