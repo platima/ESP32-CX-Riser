@@ -1,5 +1,5 @@
 substitutions:
-  device_name: "ESP32-Riser_Test-IDF-1"
+  device_name: "esp32-riser_test-idf-1"
   friendly_name: "ESP32-Riser Test IDF 1"
 
 esphome:
@@ -10,7 +10,7 @@ esphome:
 esp32:
   board: esp32-c3-devkitm-1
   framework:
-    type: esp-idf
+    type: esp-idf ## Note this will not compile with arm it seems, only x64
 
 light:
   - platform: status_led
