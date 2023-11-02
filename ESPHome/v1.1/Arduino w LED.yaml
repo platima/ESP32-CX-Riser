@@ -1,5 +1,5 @@
 substitutions:
-  device_name: "ESP32-Riser_v1.1_w_Arduino"
+  device_name: "esp32-riser_v1.1_w_arduino"
   friendly_name: "ESP32 Riser v1.1 w Arduino"
 
 esphome:
